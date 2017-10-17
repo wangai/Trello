@@ -1,0 +1,20 @@
+{
+    "name": "wangai/Trello",
+    "description": "A library to backup your's team's trello boards to a mysql database just incase",
+    "license": "MIT",
+    "keywords": ["trello","backup","trello-backup","mysql","php","trello-php"],
+    "authors": [
+        {
+            "name": "Wangai"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "wangai\\": "src"
+        }
+    }
+}
